@@ -1,0 +1,129 @@
+.card {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    max-width: rem(450);
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    border-radius: rem(20);
+    height: rem(680);
+    transition: ease 0.3s all;
+    box-shadow: 0px 15px 33px -8px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0px 15px 33px -8px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0px 15px 33px -8px rgba(0, 0, 0, 0.3);
+    @media (max-width: $mobile) {
+        width: 90%;
+        height: 90%;
+    }
+    &__top {
+        position: relative;
+        top: 0;
+        height: rem(220);
+    }
+    &__top-image {
+        display: block;
+        width: 100%;
+        height: 100%;
+        max-width: rem(450);
+        min-width: rem(300);
+        border-top-left-radius: rem(20);
+        border-top-right-radius: rem(20);
+        @media (max-width: $mobile) {
+
+        }
+    }
+    &__content {
+        margin: auto;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        @media (max-width: $mobile) {
+            width: 90%;
+        }
+    }
+    &__heading-text {
+        font-weight: 900;
+        color: $neutral-3;
+        font-size: rem(28);
+    }
+    &__content-paragraph {
+        text-align: center;
+        line-height: rem(24);
+        color: $neutral-2;
+        @media (max-width: $mobile) {
+            width: 90%;
+        }
+    }
+    &__content-plan-box {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: rem(16);
+        width: 100%;
+        background: $neutral-1;
+        border-radius: rem(12);
+        padding: rem(22);
+    }
+    &__plan-box-left {
+        display: flex;
+        align-items: center;
+    }
+    &__plan-box-tag {
+        margin-left: rem(20);
+    }
+    &__plan-box-name {
+        font-weight: 900;
+        color: $neutral-3;
+        margin-bottom: rem(8);
+    }
+    &__plan-box-price {
+        color: $neutral-2;
+    }
+    &__plan-box-link {
+        font-weight: 700;
+        color: $primary-2;
+        transition: ease all 0.3s;
+        &:hover {
+            color: rgb(132, 130, 238);
+            text-decoration: none;
+        }
+    }
+    &__content-button-wrapper {
+        margin-top: rem(30);
+        width: 100%;
+    }
+    &__content-button {
+        width: 100%;
+        border: 0;
+        border-radius: rem(12);
+        color: #fff;
+        background: $primary-2;
+        padding: rem(16);
+        font-weight: 700;
+        cursor: pointer;
+        box-shadow: 0px 15px 33px -8px rgba(0, 0, 0, 0.3);
+        -webkit-box-shadow: 0px 15px 33px -8px rgba(0, 0, 0, 0.3);
+        -moz-box-shadow: 0px 15px 33px -8px rgba(0, 0, 0, 0.3);
+        transition: ease 0.3s all;
+        &:hover {
+            background: rgb(132, 130, 238);
+        }
+    }
+    &__content-cancel-link-wrapper {
+        margin: rem(30);
+    }
+    &__content-cancel-link {
+        text-decoration: none;
+        font-weight: 700;
+        color: $neutral-2;
+        transition: ease 0.3s all;
+        &:hover {
+            color: $neutral-3;
+        }
+    }
+}
