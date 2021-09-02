@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Click here](https://www.frontendmentor.io/solutions/order-summary-component-using-html-scss-and-bem-shM3NiQ3S)
 - Live Site URL: [Click here](https://kostas1107.github.io/order-summary-component/)
 
 ## My process
