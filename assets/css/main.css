@@ -352,14 +352,23 @@ template {
 }
 
 body {
+  background: #e0e8ff;
+}
+
+main {
   max-width: 1440px;
   margin: auto;
   width: 100%;
   height: 100vh;
-  background: #e0e8ff;
   background-image: url("/Users/kostas/Desktop/frontend-mentor/HTML-CSS/order-summary-component/assets/img/pattern-background-desktop.svg");
-  background-size: contain;
+  background-size: auto;
   background-repeat: no-repeat;
+}
+
+@media (max-width: 375px) {
+  main {
+    background-image: none;
+  }
 }
 
 .card {
@@ -405,10 +414,10 @@ body {
   display: block;
   width: 100%;
   height: 100%;
-  max-width: 28.125rem;
-  min-width: 18.75rem;
   border-top-left-radius: 1.25rem;
   border-top-right-radius: 1.25rem;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .card__content {
@@ -474,6 +483,12 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.card__plan-box-image {
+  display: block;
+  width: 100%;
+  height: 100%;
 }
 
 .card__plan-box-tag {
