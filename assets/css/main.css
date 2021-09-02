@@ -361,7 +361,7 @@ main {
   width: 100%;
   height: 100vh;
   background-image: url("../../../assets/img/pattern-background-desktop.svg");
-  background-size: auto;
+  background-size: contain;
   background-repeat: no-repeat;
 }
 
