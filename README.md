@@ -22,7 +22,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](/Users/kostas/Desktop/frontend-mentor/HTML-CSS/order-summary-component/design/my-solution.png)
+![](design/my-solution.png)
 
 ### Links
 
